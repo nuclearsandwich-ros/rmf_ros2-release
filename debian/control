@@ -1,0 +1,12 @@
+Source: ros-humble-rmf-task-ros2
+Section: misc
+Priority: optional
+Maintainer: youliang <youliang@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-catch2 <!nocheck>, ros-humble-rclcpp, ros-humble-rmf-cmake-uncrustify <!nocheck>, ros-humble-rmf-task-msgs, ros-humble-rmf-traffic, ros-humble-rmf-traffic-ros2, ros-humble-rmf-utils, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rmf-task-ros2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rclcpp, ros-humble-rmf-task-msgs, ros-humble-rmf-traffic, ros-humble-rmf-traffic-ros2, ros-humble-rmf-utils, ros-humble-ros-workspace
+Description: A package managing the dispatching of tasks in RMF system.
