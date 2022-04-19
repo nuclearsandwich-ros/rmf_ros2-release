@@ -1,0 +1,12 @@
+Source: ros-humble-rmf-traffic-ros2
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libyaml-cpp-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-catch2 <!nocheck>, ros-humble-rclcpp, ros-humble-rmf-cmake-uncrustify <!nocheck>, ros-humble-rmf-fleet-msgs, ros-humble-rmf-traffic, ros-humble-rmf-traffic-msgs, ros-humble-rmf-utils, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rmf-traffic-ros2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libyaml-cpp-dev, ros-humble-rclcpp, ros-humble-rmf-fleet-msgs, ros-humble-rmf-traffic, ros-humble-rmf-traffic-msgs, ros-humble-rmf-utils, ros-humble-ros-workspace
+Description: A package containing messages used by the RMF traffic management system.
