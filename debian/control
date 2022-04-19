@@ -1,0 +1,12 @@
+Source: ros-humble-rmf-fleet-adapter
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libyaml-cpp-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-catch2 <!nocheck>, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rmf-battery, ros-humble-rmf-cmake-uncrustify <!nocheck>, ros-humble-rmf-dispenser-msgs, ros-humble-rmf-door-msgs, ros-humble-rmf-fleet-msgs, ros-humble-rmf-ingestor-msgs, ros-humble-rmf-lift-msgs, ros-humble-rmf-task, ros-humble-rmf-task-msgs, ros-humble-rmf-traffic, ros-humble-rmf-traffic-ros2, ros-humble-rmf-utils, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rmf-fleet-adapter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rmf-battery, ros-humble-rmf-dispenser-msgs, ros-humble-rmf-door-msgs, ros-humble-rmf-fleet-msgs, ros-humble-rmf-ingestor-msgs, ros-humble-rmf-lift-msgs, ros-humble-rmf-task, ros-humble-rmf-task-msgs, ros-humble-rmf-traffic, ros-humble-rmf-traffic-ros2, ros-humble-rmf-utils, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: Fleet Adapter package for RMF fleets.
